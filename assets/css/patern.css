@@ -1,0 +1,22 @@
+/* My variable colors */
+
+:root {
+  --primary-color: #dcf64b;
+  --second-color: #a0b435;
+  --black-color: #000000;
+  --black-color-medium: #0c0c0c;
+  --semi-black: #1e1e1e;
+  --white-color: #ffffff;
+}
+
+h2{
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: var(--white-color);
+}
+
+h2 span{
+  color: var(--primary-color);
+}
