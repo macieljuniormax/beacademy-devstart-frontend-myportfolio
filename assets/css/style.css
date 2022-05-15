@@ -103,6 +103,14 @@ header .container nav .menu-social{
   margin-top: 2.3rem;
 }
 
+.s-hero .container .title-box .techs img{
+  transition: all 0.4s;
+}
+
+.s-hero .container .title-box .techs img:hover{
+  transform: translateY(-12%);
+}
+
 .s-hero .container .title-box .btn-primary{
   margin-top: 4rem;
   padding: 1rem 5.6rem;
@@ -169,5 +177,24 @@ header .container nav .menu-social{
   font-weight: 300;
   font-size: 3.2rem;
   line-height: 3.9rem;
+}
+/* ============================================================ */
+
+/* ========================== FOOTER ========================== */
+footer{
+  background-color: var(--black-color-medium);
+}
+
+footer .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer .container .copy{
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  line-height: 2.4rem;
 }
 /* ============================================================ */
